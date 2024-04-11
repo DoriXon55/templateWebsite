@@ -132,9 +132,8 @@
 
             <div class="container">
 
-
                 <div class="card-group d-lg-none">
-                    <div class="card me-3">
+                    <div class="card me-1">
                         <img src="./img/PBS WTIiE logo CMYK poziom PL-01.png" class="card-img-top" alt="Logo Politechniki Bydgoskiej">
                         <div class="card-body">
                             <h5 class="card-title">Projekt aplikacji biznesowej.</h5>
@@ -142,14 +141,61 @@
                             </p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card me-1">
                         <img src="./img/istockphoto-498478219-612x612.jpg" class="card-img-top" alt="nIC">
                         <div class="card-body">
                             <h5 class="card-title">Etap 1</h5>
-                            <p class="card-text">ale kiedyś coś tutaj będzie!</p>
+                            <p class="card-text">Celem tego etapu jest przygotowanie systemu operacyjnego do realizacji projektu. Na maszynie wirutalnej (lub innym preferowanym rozwiązaniu) musi być zainstalowany system operacyjny Ubuntu wraz z narzędziami docker i docker-compose. Ponadto na maszynach wirtualnych musi być dostępne połączenie ssh. W tym etapie należy skonfigurować 4 maszyny.</p>
+                        </div>
+                    </div>
+                    <div class="card me-1">
+                        <img src="./img/istockphoto-498478219-612x612.jpg" class="card-img-top" alt="nIC">
+                        <div class="card-body">
+                            <h5 class="card-title">Etap 2</h5>
+                            <p class="card-text">Celem tego etapu jest postawienie i poprawne skonfigurowanie narzędzia gitlab na przygotowanym wcześniej systemie (na jednej z 4 maszyn). Narzędzia to należy skonfigurować na Docker wykorzystując docker-compose.</p>
                         </div>
                     </div>
                 </div>
+
+            <div class="card-group d-lg-none">
+                <div class="card me-1">
+                    <img src="./img/istockphoto-498478219-612x612.jpg" class="card-img-top" alt="nIC">
+                    <div class="card-body">
+                        <h5 class="card-title">Etap 3</h5>
+                        <p class="card-text">Celem tego etapu jest skonfigurowanie własnych runnerów dla instalowanego gitlaba.</p>
+                    </div>
+                </div>
+                <div class="card me-1">
+                    <img src="./img/istockphoto-498478219-612x612.jpg" class="card-img-top" alt="nIC">
+                    <div class="card-body">
+                        <h5 class="card-title">Etap 4</h5>
+                        <p class="card-text">Celem tego etapu jest stworzenie strony o projekcie. Strona musi zawierać podstawowe informacje o zespole projektowym oraz oferować nowoczesny wygląd. Ponadto na stronie muszą być opisane poszczególne etapy projektu. Przygotowaną stronę należy umieścić na gitlabie.</p>
+                    </div>
+                </div>
+                <div class="card me-1">
+                    <img src="./img/istockphoto-498478219-612x612.jpg" class="card-img-top" alt="nIC">
+                    <div class="card-body">
+                        <h5 class="card-title">Etap 5</h5>
+                        <p class="card-text">Celem tego etapu jest przygotowanie procesu CI/CD dla przygotowanej wcześniej strony wiki oraz dokonanie deploy na drugą z maszyn (inną niż maszyna z gitlabem)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group d-lg-none">
+                <div class="card me-1">
+                    <img src="./img/istockphoto-498478219-612x612.jpg" class="card-img-top" alt="nIC">
+                    <div class="card-body">
+                        <h5 class="card-title">Etap 6</h5>
+                        <p class="card-text">Celem tego zadania jest postawianie i poprawne skonfigurowanie narzędzia Nginx w trybie reverse-proxy. Narzędzie to musi być skonfigurowane na innej maszynie niż wcześniejsze i umożliwiać przekierowania na pozostałe maszyny bez wpisywania ich adresu. Przekierowywane muszą być skonfigurowane wcześniej narzędzia tak, aby nie udostępniały portów na zewnątrz. Dla ułatwienia skorzystać z narzędzia Nginx Proxy Manager. Narzędzie to należy skonfigurować na Docker wykorzystując docker-compose.</p>
+                    </div>
+                </div>
+                <div class="card me-1">
+                    <img src="./img/istockphoto-498478219-612x612.jpg" class="card-img-top" alt="nIC">
+                    <div class="card-body">
+                        <h5 class="card-title">Etap 7</h5>
+                        <p class="card-text">Celem tego zadania jest postawienie i poprawne skonfigurowanie narzędzia do obsługi projektów - readmine. Narzędzie to należy skonfigurować na oddzielnej maszynie wykorzystując docker-compose oraz ustawić przekierowanie na Nginx.</p>
+                    </div>
+                </div>
+            </div>
 
 
                 <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block">
@@ -310,7 +356,7 @@
                         </div>
                     </div>
                     <div class="card mx-3">
-                        <img src="./img/team/women-1209678_1920.jpg" class="card-img-top" alt="Zdjęcie działu jakości">
+                        <img src="./img/skibididom.gif" class="card-img-top" alt="Zdjęcie działu jakości">
                         <div class="card-body">
                             <h5 class="card-title">dział jakości</h5>
                             <p class="card-text">mgr. Kątek bacznie czuwa nad naszą pracą, czasami się boimy ale ogólnie to jest git!</p>
